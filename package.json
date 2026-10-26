@@ -1,0 +1,17 @@
+{
+  "name": "qa-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "QA portfolio: Playwright E2E, unit tests and test documentation samples",
+  "scripts": {
+    "test:unit": "node --test tests/unit/*.test.mjs",
+    "test:e2e": "playwright test",
+    "test": "npm run test:unit && npm run test:e2e",
+    "demo": "http-server demo-app -p 4173 -c-1"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1",
+    "http-server": "14.1.1"
+  }
+}
