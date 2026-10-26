@@ -1,6 +1,6 @@
 # BA & QA Portfolio: Jonathan Flavell
 
-![tests](https://github.com/hybr1d-jono/qa-portfolio/actions/workflows/tests.yml/badge.svg)
+![tests](https://github.com/hybr1d-jono/ba-qa-portfolio/actions/workflows/tests.yml/badge.svg)
 
 Samples of my work across business analysis and quality assurance: requirements discovery, product and process documentation, and runnable test code.
 
@@ -43,8 +43,8 @@ Grouped from analysis and product thinking, through quality strategy, to hands-o
 Needs Node 20+.
 
 ```bash
-git clone https://github.com/hybr1d-jono/qa-portfolio.git
-cd qa-portfolio
+git clone https://github.com/hybr1d-jono/ba-qa-portfolio.git
+cd ba-qa-portfolio
 npm install
 npx playwright install chromium
 npm test
